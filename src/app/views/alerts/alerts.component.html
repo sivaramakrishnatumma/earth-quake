@@ -1,0 +1,8 @@
+<div class="alerts-container">
+  <app-controls></app-controls>
+  <div class="cards">
+    <app-card *ngFor="let event of events" [data]="event"></app-card>
+  </div>
+
+  <div *ngIf="!events.length" class="no-results">No events found</div>
+</div>

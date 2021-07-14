@@ -1,0 +1,5 @@
+<div class="card" [bgColor]="data?.properties?.alert" (click)="openEventPage()">
+  <div class="main"> Magnitude: {{data?.properties?.mag}}</div>
+  <div class="sub">{{data?.properties?.place}}</div>
+  <div *ngIf="data?.properties?.tsunami" class="notch" title="Tsunami is present"><img src="../../../assets/warning.png"></div>
+</div>

@@ -1,0 +1,8 @@
+@import '../../../styles/colors';
+
+header {
+  background-image: linear-gradient(to bottom right, $bg-primary, $bg-secondary);
+  color: $text-primary;
+  padding: 2em;
+  text-align: center;
+}

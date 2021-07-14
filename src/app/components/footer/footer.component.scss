@@ -1,0 +1,8 @@
+@import '../../../styles/colors';
+
+footer {
+  background-image: linear-gradient(to bottom right, $bg-primary, $bg-secondary);
+  color: $text-primary;
+  padding: 1em;
+  text-align: center;
+}
